@@ -52,7 +52,7 @@ catch_discover_tests(
   TEST_PREFIX
   "unittests."
   REPORTER
-  XML
+  junit
   OUTPUT_DIR
   .
   OUTPUT_PREFIX
@@ -74,7 +74,7 @@ catch_discover_tests(
   TEST_PREFIX
   "constexpr."
   REPORTER
-  XML
+  junit
   OUTPUT_DIR
   .
   OUTPUT_PREFIX
@@ -98,7 +98,7 @@ catch_discover_tests(
   TEST_PREFIX
   "relaxed_constexpr."
   REPORTER
-  XML
+  junit
   OUTPUT_DIR
   .
   OUTPUT_PREFIX
